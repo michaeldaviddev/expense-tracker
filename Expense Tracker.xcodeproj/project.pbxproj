@@ -21,6 +21,8 @@
 		57EF8EA22B72B52B0085547D /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA12B72B52B0085547D /* Search.swift */; };
 		57EF8EA42B72B54A0085547D /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA32B72B54A0085547D /* Graphs.swift */; };
 		57EF8EA62B72B5590085547D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA52B72B5590085547D /* Settings.swift */; };
+		57EF8EA82B72DC930085547D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA72B72DC930085547D /* View+Extensions.swift */; };
+		57EF8EAA2B72EACB0085547D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA92B72EACB0085547D /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		57EF8EA12B72B52B0085547D /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		57EF8EA32B72B54A0085547D /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
 		57EF8EA52B72B5590085547D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		57EF8EA72B72DC930085547D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		57EF8EA92B72EACB0085547D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				57252BDA2B26CBD200EEA886 /* Constants.swift */,
+				57EF8EA72B72DC930085547D /* View+Extensions.swift */,
+				57EF8EA92B72EACB0085547D /* Date+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 				57EF8EA62B72B5590085547D /* Settings.swift in Sources */,
 				57252BC82B26C74F00EEA886 /* Expense_TrackerApp.swift in Sources */,
 				57EF8EA22B72B52B0085547D /* Search.swift in Sources */,
+				57EF8EAA2B72EACB0085547D /* Date+Extensions.swift in Sources */,
 				57252BDB2B26CBD200EEA886 /* Constants.swift in Sources */,
+				57EF8EA82B72DC930085547D /* View+Extensions.swift in Sources */,
 				57EF8EA42B72B54A0085547D /* Graphs.swift in Sources */,
 				57EF8E992B72AF530085547D /* Category.swift in Sources */,
 			);
