@@ -17,6 +17,10 @@
 		57EF8E992B72AF530085547D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8E982B72AF530085547D /* Category.swift */; };
 		57EF8E9B2B72AFC00085547D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8E9A2B72AFC00085547D /* Transaction.swift */; };
 		57EF8E9D2B72B0EA0085547D /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8E9C2B72B0EA0085547D /* TintColor.swift */; };
+		57EF8EA02B72B50F0085547D /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8E9F2B72B50F0085547D /* Recents.swift */; };
+		57EF8EA22B72B52B0085547D /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA12B72B52B0085547D /* Search.swift */; };
+		57EF8EA42B72B54A0085547D /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA32B72B54A0085547D /* Graphs.swift */; };
+		57EF8EA62B72B5590085547D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA52B72B5590085547D /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		57EF8E982B72AF530085547D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		57EF8E9A2B72AFC00085547D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		57EF8E9C2B72B0EA0085547D /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		57EF8E9F2B72B50F0085547D /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		57EF8EA12B72B52B0085547D /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		57EF8EA32B72B54A0085547D /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		57EF8EA52B72B5590085547D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 		57252BD52B26C79C00EEA886 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				57EF8E9E2B72B4EB0085547D /* TabViews */,
 				57252BD72B26C88B00EEA886 /* IntroScreen.swift */,
 			);
 			path = View;
@@ -107,6 +116,17 @@
 				57252BDA2B26CBD200EEA886 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		57EF8E9E2B72B4EB0085547D /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				57EF8E9F2B72B50F0085547D /* Recents.swift */,
+				57EF8EA12B72B52B0085547D /* Search.swift */,
+				57EF8EA32B72B54A0085547D /* Graphs.swift */,
+				57EF8EA52B72B5590085547D /* Settings.swift */,
+			);
+			path = TabViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,12 +200,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				57EF8E9D2B72B0EA0085547D /* TintColor.swift in Sources */,
+				57EF8EA02B72B50F0085547D /* Recents.swift in Sources */,
 				57EF8E9B2B72AFC00085547D /* Transaction.swift in Sources */,
 				57252BCA2B26C74F00EEA886 /* ContentView.swift in Sources */,
 				57252BD82B26C88B00EEA886 /* IntroScreen.swift in Sources */,
 				57252BDD2B26D16C00EEA886 /* Tab.swift in Sources */,
+				57EF8EA62B72B5590085547D /* Settings.swift in Sources */,
 				57252BC82B26C74F00EEA886 /* Expense_TrackerApp.swift in Sources */,
+				57EF8EA22B72B52B0085547D /* Search.swift in Sources */,
 				57252BDB2B26CBD200EEA886 /* Constants.swift in Sources */,
+				57EF8EA42B72B54A0085547D /* Graphs.swift in Sources */,
 				57EF8E992B72AF530085547D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
