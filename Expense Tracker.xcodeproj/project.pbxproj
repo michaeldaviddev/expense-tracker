@@ -23,6 +23,7 @@
 		57EF8EA62B72B5590085547D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA52B72B5590085547D /* Settings.swift */; };
 		57EF8EA82B72DC930085547D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA72B72DC930085547D /* View+Extensions.swift */; };
 		57EF8EAA2B72EACB0085547D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EA92B72EACB0085547D /* Date+Extensions.swift */; };
+		57EF8EAD2B756D870085547D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF8EAC2B756D870085547D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		57EF8EA52B72B5590085547D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		57EF8EA72B72DC930085547D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		57EF8EA92B72EACB0085547D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		57EF8EAC2B756D870085547D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		57252BD52B26C79C00EEA886 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				57EF8EAB2B756D670085547D /* Helpers */,
 				57EF8E9E2B72B4EB0085547D /* TabViews */,
 				57252BD72B26C88B00EEA886 /* IntroScreen.swift */,
 			);
@@ -133,6 +136,14 @@
 				57EF8EA52B72B5590085547D /* Settings.swift */,
 			);
 			path = TabViews;
+			sourceTree = "<group>";
+		};
+		57EF8EAB2B756D670085547D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				57EF8EAC2B756D870085547D /* CardView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				57EF8EA02B72B50F0085547D /* Recents.swift in Sources */,
 				57EF8E9B2B72AFC00085547D /* Transaction.swift in Sources */,
 				57252BCA2B26C74F00EEA886 /* ContentView.swift in Sources */,
+				57EF8EAD2B756D870085547D /* CardView.swift in Sources */,
 				57252BD82B26C88B00EEA886 /* IntroScreen.swift in Sources */,
 				57252BDD2B26D16C00EEA886 /* Tab.swift in Sources */,
 				57EF8EA62B72B5590085547D /* Settings.swift in Sources */,
